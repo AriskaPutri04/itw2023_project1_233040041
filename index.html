@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khaysha Shop</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200;400&family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Lobster&family=Merienda&family=Montaga&display=swap" rel="stylesheet" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- AOS -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <!-- Nvbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">khaysha<span>shop</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#jenisproduk">Jenis Produk</a>
+        <a href="#pemesananproduk">Pemesanan Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a> 
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/pemesananproduk/1.kebaya-satu-set.jpeg" alt="1.SetelanKebaya">
+          <div class="item-detail">
+            <h3>Setelan Kebaya</h3>
+            <div class="item-price">IDR 200K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/pemesananproduk/2.gamis-batik.jpeg" alt="2.GamisBatik">
+          <div class="item-detail">
+            <h3>Gamis Batik</h3>
+            <div class="item-price">IDR 200K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/pemesananproduk/3.gamis-barukat.jpeg" alt="3.GamisBarukat">
+          <div class="item-detail">
+            <h3>Gamis Barukat</h3>
+            <div class="item-price">IDR 200K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content" data-aos="fade-down">
+        <h1>Menjual Berbagai Jenis <span>Pakaian & Lainnya</span></h1>
+        <p>Bahan berkualitas, harga sesuai dengan barang.</p>
+        <a href="#" class="cta" data-aos="fade-right">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2 data-aos="fade-down-right" data-aos-offset="400"><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img" data-aos="flip-up" data-aos-offset="450"><img src="img/tentang-kami.jpeg" height="470px" alt="Tentang Kami" /></div>
+        <div class="content" data-aos="fade-left" data-aos-offset="450">
+          <h3>Khaysa Shop</h3>
+          <p>
+            Khaysha Shop menjual berbagai pakian modern dari kalangan dewasa perempuan dan anak-anak. Selain pakaian menjual juga seperti samping kebat, sarung laki-laki dan lain-lain. Bahan pakaian yang dipakai sangat bagus.Harga setiap
+            barangpun tidak terlalu mahal, sesuai kualitas barang.
+          </p>
+          <p>Toko kami setiap hari buka di Pasar Rebo Purwakarta dari jam 08.00 a.m - 15.00 p.m. Dan setiap hari minggu berjualan di Pasar Panjang Maracang Purwakarta dari jam 06.00 a.m - 12.00 p.m.</p>
+          <p>Jika tidak percaya silahkan pesan dan lihat kualitas dari toko kami. Yakin pasti puas dan ketagihan belanja di Khaysha Shop.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Jenis Produk Section start -->
+    <section id="jenisproduk" class="jenisproduk">
+      <h2 data-aos="fade-down-right"  data-aos-duration="500"><span>Jenis Produk</span> Kami</h2>
+      <p data-aos="fade-down"  data-aos-duration="500">Khaysha Shop menjual berbagai pakaian dewasa perempuan dan anak-anak, juga tersedia barang lain seperti samping kebat, sarung laki-laki dan lain-lain.</p>
+
+      <div class="row">
+        <div class="jenisproduk-card"  data-aos="zoom-in" data-aos-duration="500">
+          <img src="img/jenisproduk/atasan-kebaya.jpeg" height="300px" alt="atasankebaya" class="jenisproduk-card-img" />
+          <h3 class="jenisproduk-card-title">- Atasan Kebaya -</h3>
+          <p class="jenisproduk-card-price">IDR 150K</p>
+        </div>
+        <div class="jenisproduk-card"  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50">
+          <img src="img/jenisproduk/gamis-batik.jpeg" height="300px" alt="gamisbatik" class="jenisproduk-card-img" />
+          <h3 class="jenisproduk-card-title">- Gamis Batik -</h3>
+          <p class="jenisproduk-card-price">IDR 200K</p>
+        </div>
+        <div class="jenisproduk-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+          <img src="img/jenisproduk/gamis-barukat.jpeg" height="300px" alt="gamisbarukat" class="jenisproduk-card-img" />
+          <h3 class="jenisproduk-card-title">- Gamis Barukat -</h3>
+          <p class="jenisproduk-card-price">IDR 200K</p>
+        </div>
+        <div class="jenisproduk-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="150">
+          <img src="img/jenisproduk/daster-smok.jpeg" height="300px" alt="dastersmok" class="jenisproduk-card-img" />
+          <h3 class="jenisproduk-card-title">- Daster Smok -</h3>
+          <p class="jenisproduk-card-price">IDR 70K</p>
+        </div>
+        <div class="jenisproduk-card"data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+          <img src="img/jenisproduk/daster-pendek.jpeg" height="300px" alt="dasterpendek" class="jenisproduk-card-img" />
+          <h3 class="jenisproduk-card-title">- Daster Pendek -</h3>
+          <p class="jenisproduk-card-price">IDR 35K | 100K 3pcs</p>
+        </div>
+        <div class="jenisproduk-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="250">
+          <img src="img/jenisproduk/kaos-anak.jpeg" height="300px" alt="kaosanak" class="jenisproduk-card-img" />
+          <h3 class="jenisproduk-card-title">- Kaos Anak -</h3>
+          <p class="jenisproduk-card-price">IDR 25K</p>
+        </div>
+        <div class="jenisproduk-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+          <img src="img/jenisproduk/sarung-Sapphire.jpeg" height="300px" alt="sarungsapphire" class="jenisproduk-card-img" />
+          <h3 class="jenisproduk-card-title">- Sarung Sapphire -</h3>
+          <p class="jenisproduk-card-price">IDR 70K</p>
+        </div>
+      <div class="jenisproduk-card"data-aos="zoom-in" data-aos-duration="500" data-aos-delay="350">
+        <img src="img/jenisproduk/samping-kebat-DanaHadi.jpeg" height="300px" alt="sampingkebatdanahadi" class="jenisproduk-card-img" />
+        <h3 class="jenisproduk-card-title">- Samping Kebat Dana Hadi -</h3>
+        <p class="jenisproduk-card-price">IDR 50K</p>
+      </div>
+      <div class="jenisproduk-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+        <img src="img/jenisproduk/samping-kebat-RA.jpeg" height="300px" alt="sampingkebatRA" class="jenisproduk-card-img" />
+        <h3 class="jenisproduk-card-title">- Samping Kebat RA -</h3>
+        <p class="jenisproduk-card-price">IDR 75K</p>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- Jenis Produk Section end -->
+
+    <!-- Pemesanan Produk Section start -->
+    <section class="pemesananproduk" id="pemesananproduk">
+      <h2 data-aos="fade-down-right"  data-aos-duration="500"><span>Pemesanan Produk</span> Kami</h2>
+      <p data-aos="fade-down"  data-aos-duration="500">Pemesanan dan detail produk bisa dilihat dibawah ini.</p>
+
+      <div class="row">
+        <div class="pemesananproduk-card" data-aos="zoom-in-down" data-aos-duration="500">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/1.kebaya-satu-set.jpeg" height="800" alt="1.setelankebaya">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Setelan Kebaya</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 200K</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="50">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/2.gamis-batik.jpeg" height="800" alt="2.gamisbatik">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Gamis Batik</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 200K</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="100">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/3.gamis-barukat.jpeg" height="800" alt="3.gamisbarukat">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Gamis Barukat</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 200K</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card"data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="150">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/4.daster-smok.jpeg" height="800" alt="4.dastersmok">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Daster Smok</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 70K</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card"data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="200">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/5.daster-pendek.jpeg" height="800" alt="5.dasterpendek">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Daster Pendek</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 35K | 100K 3pcs</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="250">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/6.kaos-anak.jpeg" height="800" alt="6.kaosanak">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Kaos Anak</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 25K</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="300">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/7.sarung-sapphire.jpeg" height="800" alt="7.sarungsapphire">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Sarung Sapphire</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 70K</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="350">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/8.samping-kebat-danahadi.jpeg" height="800" alt="8.sampingkebatdanahadi">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Samping Kebat Dana Hadi</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 50K</div>
+          </div>
+        </div>
+        <div class="pemesananproduk-card" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="400">
+          <div class="pemesananproduk-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="pemesananproduk-image">
+            <img src="img/pemesananproduk/9.samping-kebat-RA.jpeg" height="800" alt="9.sampingkebatRA">
+          </div>
+          <div class="pemesananproduk-content">
+            <h3>Samping Kebat RA</h3>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">IDR 75K</div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pemesanan Produk Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2 data-aos="fade-down-right"  data-aos-duration="500"><span>Kontak</span> Kami</h2>
+      <p data-aos="fade-down"  data-aos-duration="500">Alamat dan jika ingin mengirimkan pesan ada berada dibawah ini.</p>
+
+      <div class="row"  data-aos="zoom-out-up"  data-aos-duration="500">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63421.509842485255!2d107.4137586699794!3d-6.541329142371017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e60454c6667%3A0x7ee7eda6d6e4556f!2sPurwakarta%2C%20Kec.%20Purwakarta%2C%20Kabupaten%20Purwakarta%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1703917310447!5m2!1sid!2sid" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+        <form name="shop-contact-form" action=""  data-aos="zoom-out-up"  data-aos-duration="500">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" name="nama" >
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" name="email">
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no-hp" name="no hp">
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <input type="text" placeholder="pesan" name="pesan">
+          </div>
+          <button type="submit" class="btn btn-kirim">kirim pesan</button>
+          <button type="button" class="btn btn-loading d-none">
+            Loading..
+          </button>
+        </form>
+      </div>
+      <div class="alert d-none" role="alert">
+        <div class="col">
+          <strong>Terimakasih! Pesan kamu sudah terkirim.</strong>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="close"
+          ></button>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/khaysha.dastershop/"><i data-feather="instagram"></i></a>
+        <a href="https://shopee.co.id/titiriskakartini"><i data-feather="shopping-bag"></i></a> 
+        <a href="https://www.facebook.com/profile.php?id=100088991107312&mibextid=ZbWKwL"><i data-feather="facebook"></i></a> 
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#jenisproduk">Jenis Produk</a>
+        <a href="#pemesananproduk">Pemesanan Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="https://www.instagram.com/ar.riska11/">AriskaPutri</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/pemesananproduk/toko-kami.jpeg" height="800" alt="Toko-Kami">
+          <div class="pemesananproduk-content">  
+            <h3>Toko Kami Khaysha Shop</h3>
+            <p>Semua barang dari Khaysha Shop sangat banyak orang yang membelinya. Bahan bagus, model modern, berkualitas, dan harga sesuai dengan barang.</p>
+            <div class="pemesananproduk-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="pemesananproduk-price">Harga dimulai dari IDR 25K-IDR 200K lebih</div>
+            <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace(); 
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> 
+  </body>
+</html>
